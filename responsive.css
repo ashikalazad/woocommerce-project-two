@@ -1,0 +1,171 @@
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media all and (max-width: 1200px) {
+
+  .single-product-item {
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.single-product-item:nth-child(2) {
+  height: 520px;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media all and (max-width: 992px) {
+
+  ul.big-menu li {
+    font-size: 30px;
+  }
+
+  ul.big-menu li a {
+    padding: 130px 30px 30px;
+}
+
+  .single-product-item{
+    width: 31.3333%;
+  }
+
+  .single-product-item:nth-child(2), .single-product-item:nth-child(4), .single-product-item:nth-child(9){
+    width: 64.6666%;
+  }
+
+  .promo-bg{
+    padding: 20px 20px 0;
+  }
+
+  .footer-area, .footer-area, .text-right{
+    text-align: center;
+  }
+
+  .footer-menu li{
+    padding: 0 20px;
+  }
+
+  .email-subscribe-form input[type=email] {
+    background-color: #fff;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    min-width: 10px;
+    padding: 5px !important;
+}
+
+input[type="submit"] {
+  padding: 5px;
+  font-size: 15px;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media all and (max-width: 768px) {
+
+  .big-menu li a{
+    padding: 94px 30px 30px;
+  }
+
+  .header-right, .header-left ul{
+    display: none;
+  }
+
+  .homepage-slider-wrap, .homepage-slider-wrap div{
+    height: auto;
+  }
+
+  .header-top-area{
+    background-color: #f6eeed;
+    position: relative;
+  }
+
+  .header-top-area a{
+    padding: 15px 15px 5px;
+  }
+
+  .slide-text-tablecell{
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .owl-carousel .owl-item .single-slide-item img {
+    display: none;
+  }
+
+  .big-menu li{
+    float: none;
+    font-size: 48px;
+    width: auto;
+  }
+
+  .big-menu li a{
+    padding: 50px;
+    text-align: center;
+  }
+
+  .single-product-item, .single-product-item:nth-child(2), .single-product-item:nth-child(3), .single-product-item:nth-child(4), .single-product-item:nth-child(9){
+    width: 100%;
+    float: none;
+  }
+
+  .promo-content{
+    padding: 20px;
+  }
+
+  .promo-bg{
+    padding-top: 10px;
+  }
+
+  .promo-title h2{
+    font-size: 25px;
+  }
+
+  .promo-title span.year-text{
+    font-size: 67px;
+    left: 30%;
+  }
+
+  .product-promotions .owl-dots{
+    margin-top: 0;
+    position: relative;
+    right: auto;
+    text-align: center;
+    top: auto;
+    width: 100%;
+  }
+
+  .product-promotions .owl-dots span{
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .footer-area, .footer-area, .text-right{
+    text-align: center;
+  }
+
+  .footer-menu li{
+    padding: 0 20px;
+  }
+
+  .email-subscribe-form input[type=submit]{
+    margin-top: 10px;
+  }
+
+  .social-links, .email-subscribe-form {
+    text-align: center;
+  }
+
+  .testimonial-content .button-area a.btn{
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    border-radius: 0;
+    transition: .3s;
+  }
+
+}
+
